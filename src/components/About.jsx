@@ -42,7 +42,7 @@ const About = () => {
               <li>Database Management: MySQL</li>
               <li>Core Concepts: Data Structures and Algorithms, Object-Oriented Programming (OOP), Database Management Systems (DBMS)</li>
               <li>Frameworks and Tools: ReactJS, Joomla, Laravel, Flask, ELK Stack, GNS3</li>
-              <li>Operating Systems: Windows, Ubuntu, Linux</li>
+              <li>Operating Systems: Windows, Ubuntu</li>
             </ul>
             <p>
               Additionally, my soft skills include leadership, event management, creative writing, public speaking, and time management. These skills enable me to work effectively in teams and manage projects efficiently.

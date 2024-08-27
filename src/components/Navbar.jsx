@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../assets/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="p-4 shadow-lg bg-gray-800">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-white font-bold text-xl">LOGO</Link>
+        <Link to="/" className="text-white font-bold text-xl"><img src={Logo} alt='logo' className='w-12 h-12 rounded-full'/></Link>
 
         {/* Mobile menu button */}
         <div className="md:hidden">
